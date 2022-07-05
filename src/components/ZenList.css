@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Cinzel", serif;
+  src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+.div-list {
+  justify-content: space-around;
+  /* margin-bottom: 10px; */
+  height: 115px;
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+.div-list::-webkit-scrollbar {
+  width: 6px;
+  background-color: #773d19;
+}
+
+.div-list::-webkit-scrollbar-thumb {
+  background-color: #e0ccc1;
+  border-radius: 3px;
+}
+
+.div-ul-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  color: #f8efba;
+  font-family: "Cinzel";
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.btn-delete {
+  background-color: #f2f2f2b4;
+  border-radius: 5px;
+  border: 0;
+  color: #4f5358;
+  font-weight: bold;
+  height: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  min-width: 45px;
+}
+.div-list .btn-delete:hover {
+  background-color: #f8f8f8;
+  border: 2px solid #c6c6c6;
+  box-shadow: 0 1px 1px (rgba(0, 0, 0, 0.1));
+  color: #222;
+  cursor: pointer;
+}

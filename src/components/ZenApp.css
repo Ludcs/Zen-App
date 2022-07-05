@@ -1,0 +1,38 @@
+.bg-zenapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 525px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #5e7505;
+  border-radius: 10px;
+}
+
+.div-container__btn-actions {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80px;
+  padding-top: 30px;
+}
+
+.btn-actionsPhrases {
+  height: 30px;
+  padding: 0 5px;
+  background-color: #f2f2f2b4;
+  border-radius: 5px;
+  border: 0;
+  color: #4f5358;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+.btn-actionsPhrases:hover {
+  background-color: #f8f8f8;
+  border: 2px solid #c6c6c6;
+  box-shadow: 0 1px 1px (rgba(0, 0, 0, 0.1));
+  color: #222;
+  cursor: pointer;
+}

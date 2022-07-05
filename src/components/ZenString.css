@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Cinzel", serif;
+  src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+.h2-string {
+  animation: string 4s;
+  color: #f8efba;
+  font-family: "Cinzel";
+  font-size: 25px;
+  text-shadow: #84817a 0.1em 0.1em 0.2em;
+  overflow: none;
+  word-break: break-word;
+}
+@keyframes string {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

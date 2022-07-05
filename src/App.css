@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("./buda.jpg") center center;
+}
