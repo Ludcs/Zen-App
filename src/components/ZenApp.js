@@ -33,7 +33,7 @@ const ZenApp = () => {
 
   const nextClicked = () => {
     if (index + 1 === datos.length) {
-      getData('http://api.github.com/zen')
+      getData('https://api.github.com/zen')
         .then((res) => {
           setLoading(true);
           if (datos.includes(res)) {
